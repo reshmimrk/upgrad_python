@@ -13,7 +13,6 @@ input_string=input()
 
 #write your code here
 
-special_characters = '[~!@#$%^&*()_+{}":;\']+$'
 
 list_out = []
 for element in input_string:
