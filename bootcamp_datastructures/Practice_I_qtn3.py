@@ -29,7 +29,6 @@ K = int(input())
 #write the code
 
 for i in range(len(input_list)):
-    print( (input_list[i]))
     if (input_list[i]).isdigit():
         new_str = str(int(input_list[i])+K)
         input_list[i] = new_str
