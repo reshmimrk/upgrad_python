@@ -29,13 +29,22 @@ import numpy as np
 
 # Write your code here
 
-arr = np.zeros((n,n), dtype=int)
+arr = np.eye(n, dtype=int)
 arr[0,:] = 1
 arr[-1,:] = 1
 
+out_arr = np.fliplr(arr)
+print(out_arr)
 
-for i in range(1,n-1):  
-        arr[i,n-1-i] = 1
+### alternate way
 
-print(arr)
+# arr = np.zeros((n,n), dtype=int)
+# arr[0,:] = 1
+# arr[-1,:] = 1
+
+
+# for i in range(1,n-1):  
+#         arr[i,n-1-i] = 1
+
+# print(arr)
 
