@@ -5,10 +5,9 @@ describe()
 columns
 shape"""
 
-#Need to add 2 extra lines for workng this code
-
 import numpy as np
 import pandas as pd
+###as we are getting error in upgrad terminal, need to add 2 extra lines for workng this code
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 df = pd.read_csv('https://query.data.world/s/vBDCsoHCytUSLKkLvq851k2b8JOCkF')
