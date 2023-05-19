@@ -12,7 +12,7 @@ import ast
 inp_list=ast.literal_eval(input())
 n=int(input())
 s = pd.Series(inp_list)
-print(s)
+# print(s)
 
 #write your code here
 

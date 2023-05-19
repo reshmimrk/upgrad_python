@@ -16,6 +16,8 @@ import pandas as pd
 
 # The file is stored at the following path:
 # 'https://media-doselect.s3.amazonaws.com/generic/NMgEjwkAEGGQZBoNYGr9Ld7w0/rating.csv'
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 df = pd.read_csv('https://media-doselect.s3.amazonaws.com/generic/NMgEjwkAEGGQZBoNYGr9Ld7w0/rating.csv')
 
 # Provide your answer below

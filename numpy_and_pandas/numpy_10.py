@@ -46,11 +46,7 @@ import numpy as np
 
 # Write your code here
 arr_temp = np.vstack((np.array(list_1),np.array(list_2)))
-print(arr_temp)
 arr_3 = np.array(list_3).transpose()
-print(arr_3)
-print(arr_3.ndim)
-print(arr_3.shape)
 final_array = np.hstack( (arr_temp, arr_3) )
 print(final_array)
 

@@ -5,7 +5,8 @@
 
 import numpy as np
 import pandas as pd
-
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 # The file is stored at the following path:
 # 'https://media-doselect.s3.amazonaws.com/generic/NMgEjwkAEGGQZBoNYGr9Ld7w0/rating.csv'
 df = pd.read_csv('https://media-doselect.s3.amazonaws.com/generic/NMgEjwkAEGGQZBoNYGr9Ld7w0/rating.csv')
