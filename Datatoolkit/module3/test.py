@@ -8,6 +8,6 @@ print(arr1.shape)
 print(arr1.ndim)
 
 
-print(arr1[:,:,0])
+print("first column", arr1[:,:,0])
 
 print(arr1[0,:,:])

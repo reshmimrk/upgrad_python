@@ -51,7 +51,6 @@ import numpy as np
 
 a = np.zeros([n, n], dtype=int)
 
-print(a)
 centre = n//2
 
 a[centre,:] = 1
